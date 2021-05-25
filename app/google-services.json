@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "584364569570",
+    "project_id": "weplay-aebf9",
+    "storage_bucket": "weplay-aebf9.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:584364569570:android:9a54eeac9aa2a4fd73bfbb",
+        "android_client_info": {
+          "package_name": "com.example.weplay"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "584364569570-49mnup0rt0c2epd5mq6kulnje7tfqf8i.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBJ9nBzOeAgveP2asQ5_cTmyZIzCnymb0Y"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "584364569570-49mnup0rt0c2epd5mq6kulnje7tfqf8i.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

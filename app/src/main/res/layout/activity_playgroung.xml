@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#303030"
+    tools:context=".Playground.Playgroung">
+
+
+    <ImageView
+        android:id="@+id/id_PlaygroundTopBackground"
+        android:layout_width="431dp"
+        android:layout_height="256dp"
+        android:layout_marginBottom="492dp"
+        android:foreground="@drawable/playgroundbackground12"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/id_PlaygroundUsernameTopText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#303030"
+        android:textSize="34sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/id_PlaygroundTopBackground"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.416"
+        app:layout_constraintStart_toStartOf="@+id/id_PlaygroundTopBackground"
+        app:layout_constraintTop_toTopOf="@+id/id_PlaygroundTopBackground"
+        app:layout_constraintVertical_bias="0.573" />
+
+    <ImageView
+        android:id="@+id/id_redirToHomeBtn"
+        android:layout_width="46dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintBottom_toBottomOf="@+id/id_PlaygroundTopBackground"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.016"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/playgroundbackbtn" />
+
+    <ImageView
+        android:id="@+id/id_Playground_Close_PlayBtn"
+        android:layout_width="137dp"
+        android:layout_height="139dp"
+        android:src="@drawable/close_play_btn2"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/id_PlaygroundTopBackground" />
+
+    <ImageView
+        android:id="@+id/id_Playground_PlayBtn"
+        android:layout_width="137dp"
+        android:layout_height="139dp"
+        android:src="@drawable/play_btn"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/id_PlaygroundTopBackground" />
+
+    <ImageView
+        android:id="@+id/id_PlaygroundTriviaBtn"
+        android:layout_width="137dp"
+        android:layout_height="139dp"
+        android:layout_marginBottom="328dp"
+        android:foreground="@drawable/trivia"
+        android:src="@drawable/play_btn"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <ImageView
+        android:id="@+id/id_SecondGameBtn"
+        android:layout_width="137dp"
+        android:layout_height="139dp"
+        android:layout_marginTop="176dp"
+        android:layout_marginBottom="176dp"
+        android:src="@drawable/work_in_progress"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/id_PlaygroundTopBackground" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

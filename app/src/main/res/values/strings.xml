@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">WePlay</string>
+    <string name="username">username</string>
+    <string name="email">email</string>
+    <string name="password">password</string>
+    <string name="LoginTitle">Login</string>
+    <string name="SignUpTitle">Sign Up</string>
+    <string name="LoginButton">Log In</string>
+    <string name="SignUpRedir">Sign Up</string>
+    <string name="db_drop">DROP TABLE IF EXISTS</string>
+    <string name="red">#FFFF0000</string>
+    <color name="light_red">#DD0404</color>
+    <color name="green">#1ED83E</color>
+</resources>

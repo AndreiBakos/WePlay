@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#303030"
+    tools:context=".Profile.ProfileActivity">
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="431dp"
+        android:layout_height="256dp"
+        android:layout_marginBottom="484dp"
+        android:foreground="@drawable/topbackground"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/id_UsernameTextChange"
+        android:layout_width="215dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="70dp"
+        android:layout_marginRight="30dp"
+        android:hint="@string/username"
+        app:errorEnabled="true"
+        android:textColorHint="#303030"
+        android:visibility="invisible"
+        app:errorTextColor="#FF0000"
+        app:hintTextColor="#303030"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.024"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/id_textInputEditText"
+            android:layout_width="226dp"
+            android:layout_height="67dp"
+            android:background="@drawable/custom_input"
+            android:textColorHighlight="#000040"
+            android:textColorHint="#303030"
+            android:visibility="visible"
+            tools:layout_editor_absoluteX="5dp"
+            tools:layout_editor_absoluteY="94dp"/>
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <TextView
+        android:id="@+id/id_usernameProfileText"
+        android:layout_width="208dp"
+        android:layout_height="61dp"
+        android:layout_marginStart="56dp"
+        android:layout_marginLeft="56dp"
+        android:text="AndreiBakos"
+        android:textColor="#303030"
+        android:textSize="34sp"
+        android:textStyle="bold"
+        android:visibility="visible"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView3"
+        app:layout_constraintStart_toStartOf="@+id/imageView3"
+        app:layout_constraintTop_toTopOf="@+id/imageView3"
+        app:layout_constraintVertical_bias="0.476" />
+
+    <ImageView
+        android:id="@+id/id_checkSaveUsername"
+        android:layout_width="40dp"
+        android:layout_height="43dp"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.042"
+        app:layout_constraintStart_toEndOf="@+id/id_usernameProfileText"
+        app:layout_constraintTop_toTopOf="@+id/imageView3"
+        app:layout_constraintVertical_bias="0.431"
+        app:srcCompat="@drawable/card15" />
+
+    <ImageView
+        android:id="@+id/id_CancelSaveUsername"
+        android:layout_width="50dp"
+        android:layout_height="53dp"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.52"
+        app:layout_constraintStart_toEndOf="@+id/id_usernameProfileText"
+        app:layout_constraintTop_toTopOf="@+id/imageView3"
+        app:layout_constraintVertical_bias="0.431"
+        app:srcCompat="@drawable/cancelsave" />
+
+    <ImageView
+        android:id="@+id/id_editBtn"
+        android:layout_width="40dp"
+        android:layout_height="43dp"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.042"
+        app:layout_constraintStart_toEndOf="@+id/id_usernameProfileText"
+        app:layout_constraintTop_toTopOf="@+id/imageView3"
+        app:layout_constraintVertical_bias="0.431"
+        app:srcCompat="@drawable/card14" />
+
+    <ImageView
+        android:id="@+id/id_ProfileRotateMenu"
+        android:layout_width="203dp"
+        android:layout_height="173dp"
+        android:layout_marginStart="111dp"
+        android:layout_marginLeft="111dp"
+        android:layout_marginTop="160dp"
+        android:layout_marginEnd="110dp"
+        android:layout_marginRight="110dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.538"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView3"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/weplay" />
+
+    <ImageView
+        android:id="@+id/id_backHomeBtn"
+        android:layout_width="159dp"
+        android:layout_height="174dp"
+        android:layout_marginEnd="12dp"
+        android:layout_marginRight="12dp"
+        android:layout_marginBottom="284dp"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:srcCompat="@drawable/houserotation2" />
+
+    <ImageView
+        android:id="@+id/id_logoutBtn"
+        android:layout_width="159dp"
+        android:layout_height="174dp"
+        android:layout_marginTop="304dp"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView3"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/profilerotation33" />
+
+    <ImageView
+        android:id="@+id/id_ProfileGameBtn"
+        android:layout_width="159dp"
+        android:layout_height="174dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginLeft="4dp"
+        android:layout_marginBottom="284dp"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/profilerotation14" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
